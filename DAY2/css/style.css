@@ -23,16 +23,20 @@ blockquote{
 }
 cite{
     font-size: 1rem;
+    font-weight: bold;
+    color:black;
+    background-color: white;
+}
+#myid{
+    color:purple;
+  font-weight: bold;
 }
 .bigbold{
     font-weight: bold;
     font-size:1.3rem;
 }
-h2{
+h2, h3, .bigbold{
     color:orange;
-}
-h3{
-    color:orange
 }
 
 ol{
