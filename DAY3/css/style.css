@@ -3,11 +3,28 @@ div{
     margin-bottom: 2rem;
     background-color: lightblue;
     padding-left: 1rem;
+    padding-right: 1rem;
 }
 .box1{
-    border:5px dotted orange;
+    border: orange;
     background-color: #ffcc00;;
+    ;
+    width: 25%;
 }
 .box2{
-
+width: 10rem;
+}
+.box2 p{
+    border:2px solid green;
+    margin-top: 0;
+}
+h1{
+    margin-bottom: 0;
+}
+a{
+    border:2px solidd blue;
+}
+.box3{
+    background-image: url(http://placekitten.com/200/300);
+    height: 10rem;
 }
