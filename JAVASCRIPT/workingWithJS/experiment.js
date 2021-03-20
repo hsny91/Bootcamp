@@ -80,3 +80,4 @@ console.log(Math.round(5.9))//6
 
 const names='Brian Holt'
 console.log(names.substr(4,3))//n H
+console.log(names.substr(4))// n Holt
