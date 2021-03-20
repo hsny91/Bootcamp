@@ -1,5 +1,3 @@
-
-
 const monthlyRent = 500;
 
 let yearlyRent = monthlyRent * 12;
@@ -34,7 +32,7 @@ if (isSkyBlue) {
 }
 console.log(greeting)
 
-if (2 + 2 === 4) {// ===
+if (2 + 2 === 4) { // ===
     console.log("Hooray! Math still works")
 } else {
     console.log("Uh panic?")
@@ -42,11 +40,30 @@ if (2 + 2 === 4) {// ===
 
 
 //else if statment
-const friendsAtYourParty=10;
-if(friendsAtYourParty===0){
-console.log("Cool ,now I have all the nachos to mayself")}
-else if(friendsAtYourParty<=4){
+const friendsAtYourParty = 10;
+if (friendsAtYourParty === 0) {
+    console.log("Cool ,now I have all the nachos to mayself")
+} else if (friendsAtYourParty <= 4) {
     console.log("Perfect amount to play some Mario Kart")
-} else{
+} else {
     console.log("Woooooooo, play the dance musik")
 }
+
+//loop 
+let atParty = 0;
+atParty = atParty + 1
+atParty = atParty + 1
+console.log(atParty) //2
+
+while (atParty < 10) {
+    atParty = atParty + 1;
+}
+console.log(atParty) //10
+
+//atPart+=1   ===>atParty=atParty+1
+
+for (let i = 0; i <= 10; i++) {
+    atParty++;
+    console.log(atParty);
+}
+console.log(atParty);
