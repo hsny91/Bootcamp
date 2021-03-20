@@ -1,29 +1,52 @@
-const monthlyRent=500;
 
-let yearlyRent=monthlyRent*12;
 
-console.log(yearlyRent);// cikti 6000 olur.
+const monthlyRent = 500;
 
-console.log(yearlyRent,monthlyRent);// cikti 6000 500
+let yearlyRent = monthlyRent * 12;
 
-yearlyRent=1;
+console.log(yearlyRent); // cikti 6000 olur.
 
-console.log(yearlyRent);//cikti ilk satir 6000 ikinci satir 1 olur 
-const firstName= "Brian"
-const lastName="Holt"
-const sentence=`Hello ${firstName} ${lastName} ! How are you ?!`
-console.log(sentence)//String
+console.log(yearlyRent, monthlyRent); // cikti 6000 500
 
-const num=5.00001;//number
-console.log(num+1.123);
+yearlyRent = 1;
 
-const isTheSkyBlue=true;//boolean
-console.log(isTheSkyBlue)//true
+console.log(yearlyRent); //cikti ilk satir 6000 ikinci satir 1 olur 
+const firstName = "Brian"
+const lastName = "Holt"
+const sentence = `Hello ${firstName} ${lastName} ! How are you ?!`
+console.log(sentence) //String
 
- //if statements
-if(isTheSkyBlue){
+const num = 5.00001; //number
+console.log(num + 1.123);
+
+const isSkyBlue = true; //boolean
+console.log(isSkyBlue) //true
+
+let greeting;
+//if statements
+if (isSkyBlue) {
     console.log("The sky is Blue")
+    greeting = "It must be nice weather"
+    console.log('lol');
 } else {
     console.log("The sky is not blue?")
+    greeting = "It must be bad weater"
+}
+console.log(greeting)
+
+if (2 + 2 === 4) {// ===
+    console.log("Hooray! Math still works")
+} else {
+    console.log("Uh panic?")
 }
 
+
+//else if statment
+const friendsAtYourParty=10;
+if(friendsAtYourParty===0){
+console.log("Cool ,now I have all the nachos to mayself")}
+else if(friendsAtYourParty<=4){
+    console.log("Perfect amount to play some Mario Kart")
+} else{
+    console.log("Woooooooo, play the dance musik")
+}
