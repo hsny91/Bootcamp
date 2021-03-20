@@ -67,3 +67,16 @@ for (let i = 0; i <= 10; i++) {
     console.log(atParty);
 }
 console.log(atParty);
+
+//scope
+let friendAtYourParty=0;
+for(let i=0;i<10;i++){
+    friendAtYourParty++
+    console.log(friendAtYourParty)
+}
+
+///Math & substr
+console.log(Math.round(5.9))//6
+
+const names='Brian Holt'
+console.log(names.substr(4,3))//n H
