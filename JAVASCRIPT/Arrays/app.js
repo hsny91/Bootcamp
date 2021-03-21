@@ -73,3 +73,25 @@ console.log(primeNumbers.sort(function(num1,num2){
 console.log(primeNumbers.sort(function(a, b) {
   return a - b;
 }));//1,2,3,5,7,11,13,17
+
+const x=' this is some thing';
+let y=x.split('')
+.map(s=>s.toUpperCase())
+.filter(s=>s!='I')
+.join('')
+console.log(y)//THS S SOME THNG
+
+
+//  & and ||
+const isTrue=true
+const x=5;
+const y=10;
+const z=11;
+
+if(x===y && y===z && isTrue){
+console.log('these are all equal')
+}
+
+if(isTrue|| (x===z&& y===z) ){
+  console.log('this an or statement')
+}
