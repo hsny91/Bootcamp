@@ -19,3 +19,10 @@ const input = document.querySelector('.input-to-copy');
   input.addEventListener("keyup", function() {
     paragraph.innerText  = input.value;
   })
+
+  const input2 = document.querySelector('.color-input');
+  const paragraph2 = document.querySelector('.color-box');
+
+  input2.addEventListener("change", function() {
+    paragraph2.style.backgroundColor  = input2.value;
+  });
