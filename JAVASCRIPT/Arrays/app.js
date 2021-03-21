@@ -46,13 +46,30 @@ const cities = [
   "Amsterdam",
   "Hong Kong"
 ];
-​
-// method 1
-for (let i = 0; i < cities.length; i++) {
-  console.log(cities[i]);
-}
-​
-// method 2
-cities.forEach(function(city) {
-  console.log(city);
-});
+
+
+
+//map 
+const newCities=cities.map(function(city){
+  return city.toUpperCase();
+})
+
+console.log(newCities)
+
+console.log("deneme")
+
+//sort 
+console.log(primeNumbers.sort())//1,11,13,17,2,3,5,7
+
+console.log(primeNumbers.sort(function(num1,num2){
+  if(num1>num2){
+    return 1;
+  } else if(num2>num1){
+    return -1
+  }
+  return 0
+}))//1,2,3,5,7,,11,13,17
+
+console.log(primeNumbers.sort(function(a, b) {
+  return a - b;
+}));//1,2,3,5,7,11,13,17
