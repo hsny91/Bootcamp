@@ -26,3 +26,11 @@ const input = document.querySelector('.input-to-copy');
   input2.addEventListener("change", function() {
     paragraph2.style.backgroundColor  = input2.value;
   });
+  //event deligation
+  document.querySelector('.button-container').addEventListener('click', function(event) {
+      if(event.target.tagName==="BUTTON"){
+        alert(`You clicked on button ${event.target.innerText}`);
+        event.currentTarget.style.backgroundColor="orange"
+      }
+    
+  });
