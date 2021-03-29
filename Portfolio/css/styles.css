@@ -5,12 +5,18 @@ html {
     box-sizing: inherit;
 }
 #main-section{
-background-image: url('../img/bg.png');
+
+    height:  80%;
 
 }
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color:#081B26
+    background-color:#081B26;
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Kavivanar', cursive;
@@ -18,19 +24,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
     font-size: 2rem;
-    color: #A51F10;
+    color: #F2AE72;
     margin: 0;
 }
 a {
-    color: #DA0090;
+    color:#8C7C68;
     text-decoration: none;
+  
 }
 a:hover {
     text-decoration: underline;
 }
 .wrapper {
-    width: 80%;
     margin: 0 auto;
+  
  
 }
 header {
@@ -45,21 +52,20 @@ header {
 }
 .rightheader {
     flex-basis: 60%;
-    margin-top: 3.75rem;
+    margin-top: 0.75rem;
     padding-left: 0.5rem;
 }
-.rightheader h1 {
-    margin: 0;
-    color: #DA0090;
-    font-size: 3em;
+.leftheader h1 {
+    margin: 2em;
+    color:#F2AE72;
+    font-size: 4em;
 }
-.rightheader p {
-    margin-top: -0.5rem;
-}
+
 nav {
-    border-bottom: 1px solid #A61F11;
-    border-top: 1px solid #DA0090;
-    background-color: #F2CA7E;
+    border-bottom: 2px solid #F2AE72;
+    border-top: 2px solid #F2AE72;
+    margin-top: 2rem;
+   
 }
 nav ul {
     margin: 0;
@@ -72,16 +78,19 @@ nav li {
 }
 nav a {
     text-decoration: none;
-    color: #73352E;
+    color: #081B26;
+    font-weight: bold;
+    font-size: large;
     display: block;
     padding: 0.5rem 1rem;
+    
 }
 nav a:hover {
-    background-color: black;
-    color: #84DE37
+    background-color:#081B26;
+    color:#F2AE72;
 }
 section {
-    border-bottom: 1px solid #DA0090;
+ 
     margin-bottom: 0.3rem;
     display: flex;
     flex-flow: column nowrap;
@@ -102,18 +111,4 @@ article::after {
 .posted {
     font-size: 0.8rem;
     color: #89A611;
-}
-footer {
-    padding: 1rem 0 3rem 0;
-    text-align: center;
-    font-size: 0.8rem;
-    border-top: 1px solid #A61F11;
-}
-footer ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-footer li {
-    display: inline-block;
 }
