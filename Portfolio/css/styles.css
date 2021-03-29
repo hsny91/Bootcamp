@@ -35,11 +35,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-.wrapper {
-    margin: 0 auto;
-  
- 
-}
 header {
     display: flex;
     flex-flow: row nowrap;
@@ -49,11 +44,6 @@ header {
     flex-basis: 40%;
     text-align: right;
     padding-right: 0.5rem;
-}
-.rightheader {
-    flex-basis: 60%;
-    margin-top: 0.75rem;
-    padding-left: 0.5rem;
 }
 .leftheader h1 {
     margin: 2em;
@@ -95,20 +85,5 @@ section {
     display: flex;
     flex-flow: column nowrap;
 }
-article {
-    margin: 2rem 0;
-}
-article img {
-    float: left;
-    margin: 0 1rem 1rem 0;
-    border-radius: 1rem;
-}
-article::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-.posted {
-    font-size: 0.8rem;
-    color: #89A611;
-}
+
+
